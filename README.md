@@ -1,4 +1,4 @@
-![PINNATUS — Scientific research framework for VPINNs](assets/pinnatus-banner.svg)
+![PINNATUS - Scientific research framework for VPINNs](assets/pinnatus-banner.svg)
 
 <p align="center">
   <img alt="Development status: early development" src="https://img.shields.io/badge/status-early%20development-E2A54A?style=flat-square" />
@@ -19,7 +19,7 @@
 
 **PINNATUS** is a scientific framework being developed in **Python** and **PyTorch** as a computational laboratory for research on **Variational Physics-Informed Neural Networks (VPINNs)**. Conventional **Physics-Informed Neural Networks (PINNs)** are included in its intended scope as reference methods for systematic comparisons.
 
-The project's primary purpose is to support methodological investigation during doctoral research—not to reproduce every capability of an established general-purpose framework.
+The project's primary purpose is to support methodological investigation during doctoral research, not to reproduce every capability of an established general-purpose framework.
 
 ## Research scope
 
@@ -35,7 +35,7 @@ These are **development goals**, not a declaration that every feature is current
 The long-term goal is a modular interface that separates the physical problem, neural network, solution method, and training procedure.
 
 ```python
-# Illustrative future API — not yet an implemented/stable interface.
+# Illustrative future API - not yet an implemented/stable interface.
 problem = Poiseuille()
 network = MLP(layers=[1, 32, 32, 1])
 
