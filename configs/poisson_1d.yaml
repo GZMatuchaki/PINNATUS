@@ -1,0 +1,15 @@
+seed: 42
+device: auto
+problem:
+  domain: [-1.0, 1.0]
+  n_test_functions: 8
+  n_quadrature_points: 32
+model:
+  hidden_layers: [32, 32, 32]
+  activation: tanh
+training:
+  epochs: 3000
+  learning_rate: 0.001
+  boundary_weight: 100.0
+  log_every: 250
+output_dir: outputs/poisson_1d
