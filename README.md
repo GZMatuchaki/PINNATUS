@@ -1,11 +1,11 @@
 ![PINNATUS - Scientific research framework for VPINNs](assets/pinnatus-banner.svg)
 
 <p align="center">
-  <img alt="Development status: early development" src="https://img.shields.io/badge/status-early%20development-E2A54A?style=flat-square" />
-  <img alt="Research focus: VPINNs" src="https://img.shields.io/badge/research-VPINNs-8B73E6?style=flat-square" />
+  <img alt="Development status: early development" src="https://img.shields.io/badge/status-early%20development-5B8CFF?style=flat-square" />
+  <img alt="Research focus: VPINNs" src="https://img.shields.io/badge/research-VPINNs-7B61FF?style=flat-square" />
   <img alt="Reference method: PINNs" src="https://img.shields.io/badge/baseline-PINNs-4C9ACD?style=flat-square" />
-  <img alt="Python" src="https://img.shields.io/badge/language-Python-3776AB?style=flat-square" />
-  <img alt="PyTorch" src="https://img.shields.io/badge/backend-PyTorch-EE4C2C?style=flat-square" />
+  <img alt="Python" src="https://img.shields.io/badge/language-Python-5B8CFF?style=flat-square" />
+  <img alt="PyTorch" src="https://img.shields.io/badge/backend-PyTorch-7B61FF?style=flat-square" />
 </p>
 
 <p align="center">
