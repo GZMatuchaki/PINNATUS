@@ -1,21 +1,28 @@
-"""Propriedades do fluido (em unidades do SI)."""
+"""Fluid properties in SI units."""
 
 from dataclasses import dataclass
 
 
 @dataclass(frozen=True)
-class FluidoNewtoniano:
-    rho: float   # massa específica [kg/m³]
-    mu: float    # viscosidade dinâmica [Pa·s]
+class NewtonianFluid:
+    """Incompressible Newtonian fluid.
+
+    Attributes
+    ----------
+    rho : float
+        Density [kg/m^3].
+    mu : float
+        Dynamic viscosity [Pa*s].
+    """
+
+    rho: float
+    mu: float
+
+    def __post_init__(self) -> None:
+        if self.rho <= 0 or self.mu <= 0:
+            raise ValueError("rho and mu must be positive.")
 
     @property
     def nu(self) -> float:
-        """Viscosidade cinemática [m²/s]."""
+        """Kinematic viscosity [m^2/s]."""
         return self.mu / self.rho
-
-
-# %%  Teste rápido
-if __name__ == "__main__":
-    agua_mestrado = FluidoNewtoniano(rho=1.0, mu=1.0)
-    print(agua_mestrado)
-    print("nu =", agua_mestrado.nu, "m²/s")

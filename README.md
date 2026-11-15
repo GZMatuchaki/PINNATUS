@@ -1,4 +1,4 @@
-![PINNATUS - Scientific research framework for VPINNs](assets/pinnatus-banner.png)
+![PINNatus - Scientific research framework for VPINNs](assets/pinnatus-banner.png)
 
 <p align="center">
   <img alt="Development status: early development" src="https://img.shields.io/badge/status-early%20development-2796E8?style=flat-square" />
@@ -21,7 +21,7 @@
 
 Its development is motivated by my PhD research at the Universidade Tecnológica Federal do Paraná (UTFPR), within the academic environment of the Research Center for Rheology and Non-Newtonian Fluids (CERNN).
 
-<sub><em>PINNATUS is a personal research initiative and is not an official software project of UTFPR or CERNN.</em></sub>
+<sub><em>PINNatus is a personal research initiative and is not an official software project of UTFPR or CERNN.</em></sub>
 
 ## Research scope
 
