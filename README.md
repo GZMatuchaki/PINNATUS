@@ -1,4 +1,4 @@
-![PINNatus - Scientific research framework for VPINNs](assets/pinnatus-banner.png)
+![PINNatus - Scientific research framework for VPINNs](assets/pinnatus_banner_git.png)
 
 <p align="center">
   <img alt="Development status: early development" src="https://img.shields.io/badge/status-early%20development-2796E8?style=flat-square" />
